@@ -46,7 +46,7 @@ def bs_books():
             print(' ')
             csv_writer.writerow([title, author, type_, ratings, num_of_ratings, price])
 
-    link = 'https://www.amazon.in/gp/bestsellers/books/ref=zg_bs_pg_2?ie=UTF8&pg=2'
+        link = 'https://www.amazon.in/gp/bestsellers/books/ref=zg_bs_pg_2?ie=UTF8&pg=2'
 
     csv_file.close()
 
