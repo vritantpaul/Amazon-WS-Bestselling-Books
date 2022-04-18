@@ -53,6 +53,6 @@ def bs_books():
 if __name__ == '__main__':
     while True:
         bs_books()
-        wait = 60*24
-        print('Waiting for 24 hours...')
+        wait = 15
+        print('Waiting for 15 min...')
         time.sleep(wait * 60)
